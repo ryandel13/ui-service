@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
+import net.mkengineering.studies.ui.Message;
+
 
 public interface UiServiceInterface {
 public final String CONTEXT = "ui";
@@ -16,7 +18,7 @@ public final String CONTEXT = "ui";
 
 	@RequestMapping(value = CONTEXT + "/push", method = RequestMethod.PUT)
 	@ResponseBody
-	public void pushMessage(ObjectNode data);
+	public void pushMessage(Message data);
 	
 	@RequestMapping(value = CONTEXT + "/gps", method = RequestMethod.PUT)
 	@ResponseBody
