@@ -17,11 +17,20 @@ import lombok.experimental.Accessors;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+/**
+Dataresponse class.
+*/
 public class DataResponse {
 
 	@JsonProperty
+	/**
+	Values.
+	*/
 	private List<ResponseEntity> values;
 	
+	/**
+	addEntry.
+	*/
 	public void addEntry(ResponseEntity rE) {
 		values.add(rE);
 	}
