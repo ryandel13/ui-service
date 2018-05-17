@@ -88,6 +88,12 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<distributionManagement>
+	    <repository>
+		<id>testrepo</id>
+	    </repository>
+	</distributionManagement>
+	
 	<modules>
 		<module>ui-service-api</module>
 	</modules>
