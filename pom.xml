@@ -7,6 +7,10 @@
 	<packaging>pom</packaging>
 	<name>ui-service</name>
 
+	 <scm>
+    		<connection>scm:git:https://github.com/ryandel13/ui-service</connection>
+	<scm>
+	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
