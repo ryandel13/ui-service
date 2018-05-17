@@ -10,7 +10,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.experimental.Accessors;
 
 @JsonAutoDetect(fieldVisibility = Visibility.ANY)
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
@@ -18,18 +17,18 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @AllArgsConstructor
 /**
-Dataresponse class.
+* DataResponse class.
 */
 public class DataResponse {
 
 	@JsonProperty
 	/**
-	Values.
+	* Values.
 	*/
 	private List<ResponseEntity> values;
 	
 	/**
-	addEntry.
+	* addEntry.
 	*/
 	public void addEntry(ResponseEntity rE) {
 		values.add(rE);
