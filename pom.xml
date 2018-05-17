@@ -11,7 +11,7 @@
 	    <connection>scm:git:https://github.com/ryandel13/ui-service</connection>
 	    <developerConnection>scm:git:https://github.com/ryandel13/ui-service</developerConnection>
 	    <tag>master</tag>
-	    <url>https://github.com/ryandel13/ui-service/url>
+	    <url>https://github.com/ryandel13/ui-service</url>
   	</scm>
 		
 	<parent>
