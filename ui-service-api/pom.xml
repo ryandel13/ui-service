@@ -35,7 +35,9 @@
 				    <execution>
 					<id>attach-javadocs</id>
 					<goals>
-					    <goal>jar</goal>
+						<goal>install</goal>
+						<goal>deploy</goal>
+					    	<goal>jar</goal>
 					</goals>
 				    </execution>
 				</executions>
