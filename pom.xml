@@ -90,8 +90,8 @@
 
 	<distributionManagement>
 	    <repository>
-		<id>testrepo</id>
-		<url>http://jupiter:8081/nexus/content/repositories/testrepo/</url>
+		<id>nexus2</id>
+		<url>http://jupiter:8081/nexus/content/repositories/snapshots/</url>
 	    </repository>
 	</distributionManagement>
 	
