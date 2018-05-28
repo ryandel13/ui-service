@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.mkengineering.studies.ui</groupId>
 	<artifactId>ui-service</artifactId>
-	<version>0.0.14</version>
+	<version>0.0.15-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>ui-service</name>
 	
@@ -10,7 +10,7 @@
 	    <connection>scm:git:https://github.com/ryandel13/ui-service</connection>
 	    <developerConnection>scm:git:https://github.com/ryandel13/ui-service</developerConnection>
 	    <url>https://github.com/ryandel13/ui-service</url>
-    <tag>ui-service-0.0.14</tag>
+    <tag>ui-service-0.0.13</tag>
   </scm>
 		
 	<parent>
