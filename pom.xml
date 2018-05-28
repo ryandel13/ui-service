@@ -91,7 +91,7 @@
 	<distributionManagement>
 	    <repository>
 		<id>nexus2</id>
-		<url>http://jupiter:8081/nexus/content/repositories/snapshots/</url>
+		<url>http://jupiter:8081/nexus/content/repositories/releases/</url>
 	    </repository>
 		<snapshotRepository>
 			<id>snapshot</id>
