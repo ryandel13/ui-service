@@ -93,6 +93,10 @@
 		<id>nexus2</id>
 		<url>http://jupiter:8081/nexus/content/repositories/snapshots/</url>
 	    </repository>
+		<snapshotRepository>
+			<id>snapshot</id>
+			<url>http://jupiter:8081/nexus/content/repositories/releases/</url>
+		</snapshotRepository>
 	</distributionManagement>
 	
 	<modules>
