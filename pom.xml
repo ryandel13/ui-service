@@ -90,9 +90,11 @@
 
 	<distributionManagement>
 	    <repository>
+		    <uniqueVersion>false</uniqueVersion>
 		<id>nexus2</id>
 		<url>http://jupiter:8081/nexus/content/repositories/releases/</url>
 	    </repository>
+		<uniqueVersion>false</uniqueVersion>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<url>http://jupiter:8081/nexus/content/repositories/snapshots/</url>
