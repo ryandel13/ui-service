@@ -91,7 +91,7 @@
 	<distributionManagement>
 	    <repository>
 		<id>testrepo</id>
-		<url>http://host.docker.internal:8081/nexus/content/repositories/testrepo/</url>
+		<url>http://jupiter:8081/nexus/content/repositories/testrepo/</url>
 	    </repository>
 	</distributionManagement>
 	
